@@ -1,25 +1,24 @@
 {
-    "name": "chrmina/cakespreadsheet",
+    "name": "jdominguezpaz/cakespreadsheet",
     "type": "cakephp-plugin",
-    "description": "CakePHP excel spreadsheet generator",
+    "description": "CakePHP excel spreadsheet generator using PHPSpreadsheet (CakePHP 3.x compatible, fixed for 3.8+)",
     "keywords": [
         "cakephp",
-        "chrmina",
+        "cakephp3",
         "excel",
-        "phpspreadsheet"
+        "phpspreadsheet",
+        "xlsx"
     ],
-    "homepage": "https://github.com/chrmina/CakeSpreadsheet",
+    "homepage": "https://github.com/jdominguezpaz/CakeSpreadsheet",
     "license": "MIT",
     "authors": [
         {
             "name": "Christakis Mina",
             "email": "christosmina@gmail.com"
-        }
-    ],
-    "modifier": [
+        },
         {
-            "name": "Christakis Mina",
-            "email": "christosmina@gmail.com"
+            "name": "Jaime Domínguez Paz",
+            "role": "Maintainer"
         }
     ],
     "require": {
@@ -42,7 +41,7 @@
         }
     },
     "support": {
-        "issues": "https://github.com/chrmina/CakeSpreadsheetissues",
-        "source": "https://github.com/chrmina/CakeSpreadsheet"
+        "issues": "https://github.com/jdominguezpaz/CakeSpreadsheet/issues",
+        "source": "https://github.com/jdominguezpaz/CakeSpreadsheet"
     }
 }

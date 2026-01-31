@@ -1,16 +1,25 @@
-[![Build Status](https://img.shields.io/travis/chrmina/CakeSpreadsheet/master.svg?style=flat-square)](https://travis-ci.org/chrmina/CakeSpreadsheet)
-[![Coverage Status](https://img.shields.io/coveralls/chrmina/CakeSpreadsheet.svg?style=flat-square)](https://coveralls.io/r/chrmina/CakeSpreadsheet?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/chrmina/CakeSpreadsheet.svg?style=flat-square)](https://packagist.org/packages/chrmina/CakeSpreadsheet)
-[![Latest Stable Version](https://img.shields.io/packagist/v/chrmina/CakeSpreadsheet.svg?style=flat-square)](https://packagist.org/packages/chrmina/CakeSpreadsheet)
+[![Build Status](https://img.shields.io/travis/jdominguezpaz/CakeSpreadsheet/master.svg?style=flat-square)](https://travis-ci.org/jdominguezpaz/CakeSpreadsheet)
+[![Coverage Status](https://img.shields.io/coveralls/jdominguezpaz/CakeSpreadsheet.svg?style=flat-square)](https://coveralls.io/r/jdominguezpaz/CakeSpreadsheet?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/jdominguezpaz/cakespreadsheet.svg?style=flat-square)](https://packagist.org/packages/jdominguezpaz/cakespreadsheet)
+[![Latest Stable Version](https://img.shields.io/packagist/v/jdominguezpaz/cakespreadsheet.svg?style=flat-square)](https://packagist.org/packages/jdominguezpaz/cakespreadsheet)
 
 # CakeSpreadsheet
 
-A plugin to generate Excel spreadsheet files with CakePHP. Modified from [CakeExcel](https://github.com/dakota/CakeExcel) to use PHPSpreadsheet instead of obsolete PHPExcel.
+A plugin to generate Excel spreadsheet files with CakePHP 3.x.
+
+This is a maintained fork of [chrmina/CakeSpreadsheet](https://github.com/chrmina/CakeSpreadsheet), which was modified from [CakeExcel](https://github.com/dakota/CakeExcel) to use PHPSpreadsheet instead of obsolete PHPExcel.
+
+## Key Changes in This Fork
+
+- **Fixed deprecation warnings** for CakePHP 3.8+
+- Updated to use modern CakePHP 3.x APIs (`Event::getSubject()`, `setConfig()`)
+- Active maintenance and versioning
+- Ready for Composer/Packagist distribution
 
 ## Requirements
 
-* CakePHP 3.x
-* PHP 5.4.16 or greater
+* CakePHP 3.6+
+* PHP 5.6.0 or greater
 * Patience
 
 ## Installation
@@ -18,7 +27,7 @@ A plugin to generate Excel spreadsheet files with CakePHP. Modified from [CakeEx
 _[Using [Composer](http://getcomposer.org/)]_
 
 ```
-composer require chrmina/CakeSpreadsheet
+composer require jdominguezpaz/cakespreadsheet
 ```
 
 ### Enable plugin
