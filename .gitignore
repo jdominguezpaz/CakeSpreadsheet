@@ -11,6 +11,7 @@
 *.mo
 debug.log
 error.log
+PUBLICACION.md
 
 # OS generated files #
 ######################
